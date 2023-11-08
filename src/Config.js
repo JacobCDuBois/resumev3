@@ -1,4 +1,5 @@
 const config ={
+    website_desc:"This site was created using React, HTML, and CSS using libraries like Bootstrap and hosted using Digital ocean",
     name:"Jacob DuBois",
     title: "Data Analyst and Software Developer",
     subhead:"I build tools and websites",
@@ -7,9 +8,8 @@ const config ={
         "found my other passion - data science and statistics. Since then I graduated university with high honors in Computer Science, and if it wasn't for Covid I would have" +
         "graduated early with a double minor and double major. While In College and after I graduated, I worked as a data analyst in the energy sector, leading data visualisation and" +
         "prediction models for the ERCOT, NYISO, and CAISO markets. Today, I freelance as a web developer and data scientist and I hope to build a large enough clientele " +
-        "to run my own firm." +
-        "" +
-        "When I am not on the computer, I am usually srock climbing, camping or tinkering on cars or anything electrical. This led me in 2022 to help start and organize " +
+        "to run my own firm. \n" +
+        "When I am not on the computer, I am usually rock climbing, camping or tinkering on cars or anything electrical. This led me in 2022 to help start and organize " +
         "a startup converting vintage british sports cars into electric vehicles. Like my father I pride myself on my adaptability and eagerness to learn new things," +
         "and I am often referred to as a Jack of All Trades. ",
 
@@ -31,7 +31,8 @@ const config ={
                 "SQL",
                 "Python",
                 "CSS/HTML/Bootstrap",
-                "Django/Flask/Apache"
+                "Django/Flask/Apache",
+                "Git"
 
             ]
         },
@@ -56,16 +57,17 @@ const config ={
             company:"Toaster Pets Inc",
             location:"Pittsburgh, PA",
             title:"Software Developer Intern",
-            description:"",
-            period:
-                "Utilized C# and Unity to design and construct 3D environments for interactive applications and" +
+            description:"Utilized C# and Unity to design and construct 3D environments for interactive applications and" +
                 " games. Actively participated in the Quality Assurance (QA) testing process, ensuring product quality" +
                 " and functionality through rigorous testing and issue reporting.",
+            period:"01/2020-04/2020",
+
             skills:[
                 "C#",
                 "Unity Engine",
                 "Mongo DB",
-                "Jira/QA"
+                "Jira/QA",
+                "Git"
             ]
         },
         {
@@ -99,10 +101,11 @@ const config ={
                 "SPSS",
                 "Google Big Query",
                 "NLP",
-                "Scitkit-Learn/Tensorflow"
+                "Scitkit-Learn/Tensorflow",
 
             ]
         },
-    ]
+    ],
+
 };
 export default config;
