@@ -1,9 +1,11 @@
 .pane{
     height: 100vh;
     padding-top: 100px;
+    color: white;
 }
 .right_pane{
     flex:1;
+    color: white;
     overflow: auto;
 }
 .right_pane::-webkit-scrollbar {
@@ -49,4 +51,21 @@ a{
 .logo_img{
     height: 60px;
     width: 60px;
+}
+.background_color_div{
+    background: linear-gradient(to bottom, #080814,#1a1a33);
+}
+.background{
+    background:
+            url("/public/test4.png"),
+            url("/public/test5.png"),
+            linear-gradient(to bottom, #080814,#1a1a33);
+    background-size: 90vw 100vh, 70vw 70vh;
+    background-repeat: no-repeat;
+    background-position: -36vw 60px, 60vw -30vw;
+
+    /*background-position: top right;*/
+    /*background: linear-gradient(to bottom, #1a1a1a, #080808);*/
+
+    /*background-position: center 500px;*/
 }

@@ -26,7 +26,7 @@ function Bio() {
                 </a></li>
 
                 <li className=""><a className=""
-                                                href="www.linkedin.com/in/jacob-dubois-8778551a7" target="_blank"
+                                                href="https://www.linkedin.com/in/jacob-dubois-8778551a7" target="_blank"
                                                 rel="noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="logo_img"
                          aria-hidden="true">
