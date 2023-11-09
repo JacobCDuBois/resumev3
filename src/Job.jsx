@@ -17,7 +17,7 @@ function Job({description}){
                 </div>
                 <div className="row ">
                     <div className={"justify-content-start flex-wrap skill_container"}>
-                        {description.skills.map((skill, index) => (<Skill key={index} skill_type={skill}></Skill>))}
+                        {description.skills.map((skill, index) => (<Skill key={index} skill_type={skill} color={index}></Skill>))}
                     </div>
 
                 </div>

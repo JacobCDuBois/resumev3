@@ -14,6 +14,9 @@ function App() {
       </header>
         <div className={"background_color_div"}>
         <body className="background">
+        <div>
+            <img className="right_bg_img" src="/test6.png"></img>
+        </div>
         <div className="container d-flex" >
             <div className="d-flex row justify-content-evenly w-100 ">
                 <Bio>

@@ -4,18 +4,27 @@ import './styles.css'
 function Bio() {
     return (
         <div className="d-flex col-md-6 text-left flex-column justify-content-between pane">
-            <div className={"row "}>
-                <h1 className={"test"}>
+            <div className={"row name_div"}>
+                <div className="row name_text ">
+
                     {config.name}
-                </h1>
-                <h3>{config.title}</h3>
-                <h3>{config.subhead}</h3>
+                </div>
+                <div className="row sub_text">
+
+                    {config.title}
+                </div>
+                <div className="row sub_sub_text">
+                    {config.subhead}
+                </div>
+
+
+
             </div>
             <div className={"row pb-5"}>
             </div>
 
-            <ul className="invisible_bullet d-flex mr-0 flex-row" aria-label="Social media">
-                <li className=""><a className=""
+            <ul className="invisible_bullet d-flex flex-row p-0 " aria-label="Social media">
+                <li className="svg_items"><a className=""
                                                 href="https://github.com/JacobCDuBois/resumev3.git" target="_blank"
                                                 rel="noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="logo_img"
@@ -25,7 +34,7 @@ function Bio() {
                     </svg>
                 </a></li>
 
-                <li className=""><a className=""
+                <li className="svg_items"><a className=""
                                                 href="https://www.linkedin.com/in/jacob-dubois-8778551a7" target="_blank"
                                                 rel="noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="logo_img"

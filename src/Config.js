@@ -1,7 +1,7 @@
 const config ={
     website_desc:"This site was created using React, HTML, and CSS using libraries like Bootstrap and hosted using Digital ocean",
     name:"Jacob DuBois",
-    title: "Data Analyst and Software Developer",
+    title:"Data Analyst and Software Developer",
     subhead:"I build tools and websites",
     bio:"Back in 2010, I got addicted to an online Pokemon game where I taught myself Markup, CSS, and HTML to contribute in the online forums and" +
         "I unwittingly fell head first into the world of coding and web development. In high school I would take college courses in software development and statistics where I" +
